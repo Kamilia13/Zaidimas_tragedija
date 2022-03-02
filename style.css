@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: plum;
+    color: black;
+}
+.one{
+   display: flex;
+   align-items: center;
+   
+}
+.two{
+   display: flex;
+   align-items: center;
+   margin: 20px;
+}
+span{
+   margin: 15px;
+   font-size: 30px;
+
+}
+
+
+section{
+    display: flex;
+    align-items: center;
+
+}
+
+p{
+    color: black;
+    margin: 20px;
+}
+button{
+   display: block;
+   margin: 5px;
+   padding: 10px;
+   width: 80px;
+   height: 40px;
+   border-radius: 5px;
+   font-size: 15px;
+   font-family: arial;
+   background-color:salmon;
+   
+   
+}
+
+#displayNumber {
+    font-size: 3em;
+    margin: 20px;
+}
+
+main div{
+    display: inline-block;
+    margin-left: 20px;
+    width: 100px;
+    line-height: 100px;
+    text-align: center;
+    color: black;
+    font-size: 2em;
+    transition: 0.3s;
+}
+
+main input{
+    width: 300px;
+    margin-left: 20px;
+}
+
+.scroll {
+            display: block;
+            border: 0px solid red;
+            padding: 5px;
+            margin-top: 5px;
+            width: 100%;
+            height: 100px;
+            overflow-y: scroll;
+        }
